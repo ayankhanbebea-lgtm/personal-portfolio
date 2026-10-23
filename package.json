@@ -1,0 +1,7 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Personal Portfolio Website with API-Based Chatbot Integration for Ayan Khan"
+}
