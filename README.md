@@ -3,47 +3,49 @@
 An individual practical **Internal Assessment** project developed for the Computer Science & Engineering curriculum at JECRC University by **Ayan Khan**.
 
 - **Author**: Ayan Khan
-- **Enrolment No**: `25BCON1174`
-- **Department**: Computer Science and Engineering (CSE Core), 2nd Year
-- **Institution**: JECRC University, Jaipur, Rajasthan
+- **College**: JECRC University, Jaipur, Rajasthan
+- **Degree**: B.Tech in Computer Science and Engineering (CSE Core)
+- **Current Year**: 2nd Year
+- **Expected Graduation**: 2029
+- **Email**: [ayankhanbebea@gmail.com](mailto:ayankhanbebea@gmail.com)
 - **GitHub Profile**: [https://github.com/ayankhanbebea-lgtm](https://github.com/ayankhanbebea-lgtm)
-- **Live Deployed Portfolio**: [https://personal-portfolio-assessment.vercel.app](https://personal-portfolio-assessment.vercel.app) *(or active Vercel deployment)*
+- **Live Deployed Portfolio**: [https://personal-portfolio-assessment.vercel.app](https://personal-portfolio-assessment.vercel.app) *(or active Vercel / GitHub Pages deployment)*
 
 ---
 
 ## 1. Project Overview
-This repository contains a responsive, personalized portfolio website showcasing five coursework projects completed across the semester. In addition to clean UI/UX, responsive mobile layouts, and a theme switcher, the portfolio features an **interactive project search and filter engine** and an **API-integrated chatbot** grounded in personal coursework data with zero client-side secret exposure.
+This repository contains a personalized, responsive portfolio website showcasing five coursework projects completed during the semester. The website incorporates modern UI/UX design, mobile responsiveness, a persistent light/dark mode toggle, an interactive project search and filter engine, and a secure API-based chatbot integrated with Groq.
 
 ---
 
 ## 2. The Five Coursework Projects
 
-| # | Project Name | Description | Technologies | Repository / Live Demo |
+| # | Project Name | Description | Technologies | Repository & Live Links |
 |:---:|:---|:---|:---|:---|
-| **1** | **Python Programs Collection** | Core Python programs implementing factorial calculation, Fibonacci series generation, and C-structure to Python-dictionary data mapping with an audited fact-check table. | Python, Google Colab | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/python-basics-rollno) |
-| **2** | **Messy Python Code Improvement** | Practical case study refactoring an intentionally messy student grade and attendance calculator into modular, tested, PEP 8-compliant Python. | Python, Refactoring, PEP 8, Unit Testing | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/messy-python-code-improvement) |
-| **3** | **Bug Fixing Using Cursor AI** | Comparative analysis of bug diagnosis using single prompt vs. 3-step chain prompting in Cursor AI to detect and fix 3 critical runtime bugs in an array average algorithm. | C, Python, Cursor AI, Prompt Engineering | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/bug-fixing-using-cursor-ai) |
-| **4** | **Interactive Quiz Application** | Responsive quiz application from Lecture 10 evaluating concepts in LLMs, Git conventions, unit testing, and algorithm complexity with instant visual feedback and score calculation. | HTML5, CSS3, JavaScript (ES6+), GitHub Pages | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/interactive-quiz-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/interactive-quiz-application/) |
-| **5** | **Book Reading List Application** | Reading tracker application from Lecture 11 featuring book creation, reading lifecycle statuses (Want to Read, Currently Reading, Completed), live search, status filtering, and LocalStorage persistence. | HTML5, CSS3, JavaScript, LocalStorage, GitHub Pages | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/book-reading-list-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/book-reading-list-application/) |
+| **1** | **Python Programs Collection** | Core Python programs converting C algorithms into Python (Factorial calculation, Fibonacci series generator, and C-structure to Python-dictionary data mapping) with an audited fact-check README. | Python, C, Google Colab | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/python-basics-rollno) |
+| **2** | **Messy Python Code Improvement** | Practical case study refactoring an intentionally messy student grade and attendance calculator script with cryptic naming and duplicate logic into clean, modular, and tested Python using AI assistance. | Python, AI Tools, Refactoring, Unit Testing | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/messy-python-code-improvement) |
+| **3** | **Bug Fixing Using Cursor AI** | Case study identifying and correcting 3 runtime bugs (uninitialized variable, off-by-one buffer overflow, and integer division truncation) in an array average algorithm using 3-step chain prompting in Cursor AI. | C, Python, Cursor AI, Prompt Engineering | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/bug-fixing-using-cursor-ai) |
+| **4** | **Interactive Quiz Application** | Responsive quiz web application developed in Lecture 10 testing computer science and AI concepts with dynamic question rendering, instant visual feedback, and score tracking. | HTML, CSS, JavaScript, Web Development | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/interactive-quiz-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/interactive-quiz-application/) |
+| **5** | **Book Reading List Application** | Reading tracker application developed in Lecture 11 with book creation, reading lifecycle statuses (Want to Read, Currently Reading, Completed), live search, status filtering, and LocalStorage persistence. | HTML, CSS, JavaScript, LocalStorage | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/book-reading-list-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/book-reading-list-application/) |
 
 ---
 
 ## 3. Implemented Features
 
 ### A. Dynamic Project Search & Filter (Task 3)
-- Visitors can search projects in real time by **project name**, **description keywords**, or **technology tags** (e.g., `Python`, `Quiz`, `Book`, `Cursor`).
-- Category filter pills (`All`, `Python`, `Web Apps`, `AI & Debugging`) allow one-click domain filtering.
-- Dynamic project counter updates live (e.g., *"Showing 2 of 5 projects"*).
+- Visitors can search projects in real time by **project name** or **technology** (e.g., `Python`, `Quiz`, `Book`).
+- Category filter buttons (`All`, `Python`, `Web Development`, `AI Tools`) allow instant domain filtering.
+- A dynamic counter updates live based on the entered search term (*"Showing 5 of 5 projects"*).
 
 ### B. Light & Dark Mode Toggle (Task 3)
 - Smooth toggle switch in the sticky header accessible on both desktop and mobile devices.
-- Auto-detects system preference (`prefers-color-scheme`) and persists user preference across visits using `localStorage`.
+- Automatically respects system preferences (`prefers-color-scheme`) and persists user preference across sessions using `localStorage`.
 
 ### C. Secure AI Chatbot Integration (Task 6)
-- Allows visitors to ask questions about Ayan's academic background, skills, and projects.
+- Allows visitors to ask questions about Ayan's academic background at JECRC University, his skills, and coursework projects.
 - **Strict Security Architecture**: Secret API keys are **never** bundled into frontend client JavaScript or committed to GitHub.
 - Communicates with `/api/chat`, a secure **Vercel Serverless Function** reading `process.env.GROQ_API_KEY`.
-- Includes pre-configured question chips for quick testing (*"Who are you?"*, *"What are your skills?"*, *"Explain your Python programs"*, *"What was corrected in the buggy code project?"*).
+- Includes suggested question chips for quick testing (*"Who are you?"*, *"Where do you study?"*, *"What are your skills?"*, *"What projects have you completed?"*, *"Tell me about your Python Programs Collection"*, *"What was fixed in the Bug Fixing Using Cursor AI project?"*).
 - Includes graceful client fallback handling for local static demonstrations.
 
 ---
@@ -51,13 +53,13 @@ This repository contains a responsive, personalized portfolio website showcasing
 ## 4. Technologies Used
 - **Frontend**: Semantic HTML5, CSS3 (Custom CSS variables, Grid, Flexbox, media queries), Vanilla JavaScript (ES6+).
 - **Backend / Serverless**: Node.js Serverless Function (`api/chat.js`) on Vercel.
-- **AI API**: Groq Cloud API (`llama-3.3-70b-versatile`) with role-based system prompts.
+- **AI API**: Groq API (`openai/gpt-oss-20b`) with role-based system prompts.
 - **Typography**: Google Fonts (`Bricolage Grotesque` and `IBM Plex Sans`).
 - **DevOps & Hosting**: Git, GitHub, Vercel CLI, GitHub Pages.
 
 ---
 
-## 5. Local Setup & Development Instructions
+## 5. Local Setup Instructions
 
 ### Step 1: Clone the Repository
 ```bash
@@ -68,25 +70,20 @@ cd personal-portfolio
 ### Step 2: Running Frontend Locally
 To view the frontend pages and interactive filters:
 ```bash
-# Using Python
-python -m http.server 3000
-
-# Or using Node.js
 npx serve .
+# Or using Python:
+python -m http.server 3000
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
 ### Step 3: Running with Local Vercel Serverless Function (Optional)
-If you want to run the live Groq backend server locally:
+To test the live Groq backend server locally:
 ```bash
-# Install Vercel CLI if not already installed
-npm install -g vercel
-
-# Create a local .env file (never commit this)
+# Add your GROQ_API_KEY to .env.local (this file is ignored by git)
 echo GROQ_API_KEY=your_groq_api_key_here > .env.local
 
 # Run Vercel development server
-vercel dev
+npx vercel dev
 ```
 
 ---
@@ -105,6 +102,6 @@ When deploying this project to Vercel:
 
 ## 7. Author Information
 - **Ayan Khan** (2nd Year B.Tech CSE Core)
-- Department of Computer Science & Engineering, JECRC University
+- Department of Computer Science & Engineering, JECRC University, Jaipur
 - Email: [ayankhanbebea@gmail.com](mailto:ayankhanbebea@gmail.com)
 - GitHub: [@ayankhanbebea-lgtm](https://github.com/ayankhanbebea-lgtm)
