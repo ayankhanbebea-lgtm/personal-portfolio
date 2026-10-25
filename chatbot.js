@@ -36,7 +36,19 @@ document.addEventListener("DOMContentLoaded", () => {
       return "Ayan's skills include HTML, CSS, JavaScript, Python, C, C++, Git, GitHub, Web Development, and AI Tools.";
     }
     if (q.includes("what projects") || q.includes("completed") || q.includes("list projects") || q.includes("all projects")) {
-      return "Ayan has completed five coursework projects: 1) Python Programs Collection, 2) Messy Python Code Improvement, 3) Bug Fixing Using Cursor AI, 4) Interactive Quiz Application, and 5) Book Reading List Application.";
+      return "Ayan's portfolio highlights 4 featured projects: 1) KRISHIDHENU (Digital procurement platform for farmers), 2) ArriveAI (AI delivery notification SaaS), 3) PDFAI Hub (PDF processing & AI suite), and 4) Traffic Escape (Mobile canvas puzzle game).";
+    }
+    if (q.includes("krishidhenu") || q.includes("farmer") || q.includes("procurement")) {
+      return "KRISHIDHENU is a digital procurement platform for farmers featuring slot booking, OTP authentication, and a real-time live queue built with Next.js and Server-Sent Events (SSE). Repository: https://github.com/ayankhanbebea-lgtm/indian-farmer-Procurement";
+    }
+    if (q.includes("arrive") || q.includes("arriveai")) {
+      return "ArriveAI is a SaaS prototype developed with Next.js and AI integrations that dispatches smart automated notifications when an order delivery is approaching.";
+    }
+    if (q.includes("pdf") || q.includes("pdfai")) {
+      return "PDFAI Hub is an all-in-one PDF processing and AI suite built using Next.js 15. Check out the live demo at https://pdfaihub.vercel.app or view code at https://github.com/ayankhanbebea-lgtm/PDFAIHUB";
+    }
+    if (q.includes("traffic") || q.includes("escape") || q.includes("game")) {
+      return "Traffic Escape is an engaging mobile-responsive puzzle game built with HTML5 and Canvas where players clear road congestion to navigate their car to safety.";
     }
     if (q.includes("python program") || q.includes("factorial") || q.includes("fibonacci") || q.includes("dictionary conversion")) {
       return "The Python Programs Collection (Lecture 4) demonstrates foundational C-to-Python algorithm conversion: computing factorials, generating Fibonacci numbers, and mapping C structures to Python dictionaries, complete with an audited fact-check table in the repository.";

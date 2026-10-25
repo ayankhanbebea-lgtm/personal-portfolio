@@ -32,42 +32,32 @@ TECHNICAL SKILLS:
 - Web Development
 - AI Tools
 
-THE FIVE COURSEWORK PROJECTS:
-1. Python Programs Collection:
-   - What it is: A collection of foundational Python programs converting traditional C algorithms into Python.
-   - Topics: Factorial calculation, Fibonacci series generator, and C Structure-to-Python Dictionary data mapping.
-   - Platform: Developed in Google Colab (Lecture 4) with an audited README fact-check table.
-   - GitHub: https://github.com/ayankhanbebea-lgtm/python-basics-rollno
+FEATURED PORTFOLIO PROJECTS:
+1. KRISHIDHENU:
+   - What it is: Digital procurement platform for farmers featuring slot booking, OTP login, and a live queue.
+   - Technologies: Next.js, Server-Sent Events (SSE).
+   - GitHub: https://github.com/ayankhanbebea-lgtm/indian-farmer-Procurement
 
-2. Messy Python Code Improvement:
-   - What it is: An AI-assisted code refactoring case study.
-   - Original Problem: A monolithic, draft Python script for student grades and attendance with cryptic single-letter variables, repeated loops, no modular functions, unhandled zero-division, and lack of type hints.
-   - Improvements Made: Refactored into clean modular functions (determine_grade, check_attendance_eligibility, process_student_record, generate_class_report), added Python type annotations, followed PEP 8 conventions, and implemented automated unit tests.
-   - GitHub: https://github.com/ayankhanbebea-lgtm/messy-python-code-improvement
+2. ArriveAI:
+   - What it is: SaaS prototype that sends AI-powered notifications when a delivery is about to arrive.
+   - Technologies: Next.js, AI.
 
-3. Bug Fixing Using Cursor AI:
-   - What it is: Practical debugging of an array average calculation in C/Python using Cursor AI.
-   - Methodology: Compared a naive single prompt ("Fix this code") against a structured 3-step chain prompting method (1. enumerate bugs without fixing, 2. runtime impact trace, 3. refactor with inline bug comments).
-   - The 3 Bugs Fixed:
-     1. Uninitialized accumulator variable (int sum;) causing garbage values.
-     2. Off-by-one buffer overflow (i <= n instead of i < n) accessing memory outside the array.
-     3. Integer division truncation (sum / n) discarding decimal fractions before conversion to float.
-   - GitHub: https://github.com/ayankhanbebea-lgtm/bug-fixing-using-cursor-ai
+3. PDFAI Hub:
+   - What it is: PDF processing and AI features in one place.
+   - Technologies: Next.js 15, SaaS.
+   - GitHub: https://github.com/ayankhanbebea-lgtm/PDFAIHUB
+   - Live Demo: https://pdfaihub.vercel.app
 
-4. Interactive Quiz Application:
-   - What it is: An interactive web quiz application developed in Lecture 10.
-   - Content: Tests computer science and AI concepts including LLM next-token prediction, conventional Git commit messages, unit testing before bug fixing, CSS separation of concerns, and O(n^2) time complexity.
-   - Features: Dynamic question rendering, instant visual feedback (green/red indicators), score counter, completion percentage summary, and quiz restart.
-   - Technologies: HTML5, CSS3, JavaScript (ES6+), GitHub Pages.
-   - GitHub: https://github.com/ayankhanbebea-lgtm/interactive-quiz-application
-   - Live Demo: https://ayankhanbebea-lgtm.github.io/interactive-quiz-application/
+4. Traffic Escape:
+   - What it is: Mobile puzzle game where you clear the road to free your car.
+   - Technologies: HTML5, Canvas.
 
-5. Book Reading List Application:
-   - What it is: A client-side book reading tracker application developed for Lecture 11.
-   - Features: Add books with title and author, manage reading statuses (Want to Read, Currently Reading, Completed), mark books as read/unread, delete books, live dynamic search, status filter tabs, reading progress statistics counters, and automatic persistence using browser LocalStorage.
-   - Technologies: HTML5, CSS3, JavaScript (ES6+), Web Storage API, GitHub Pages.
-   - GitHub: https://github.com/ayankhanbebea-lgtm/book-reading-list-application
-   - Live Demo: https://ayankhanbebea-lgtm.github.io/book-reading-list-application/
+ADDITIONAL COURSEWORK REPOSITORIES:
+- Python Programs Collection (Lecture 4): Factorial, Fibonacci, Structure-to-Dictionary (https://github.com/ayankhanbebea-lgtm/python-basics-rollno)
+- Messy Python Code Improvement: Refactoring student records with PEP 8 and unit tests (https://github.com/ayankhanbebea-lgtm/messy-python-code-improvement)
+- Bug Fixing Using Cursor AI: Array average debugging with 3-step chain prompting (https://github.com/ayankhanbebea-lgtm/bug-fixing-using-cursor-ai)
+- Interactive Quiz Application (Lecture 10): https://github.com/ayankhanbebea-lgtm/interactive-quiz-application
+- Book Reading List Application (Lecture 11): https://github.com/ayankhanbebea-lgtm/book-reading-list-application
 
 STRICT RESPONSE RULES:
 - Keep answers concise, natural, and helpful (typically under 70 words unless the user requests a detailed explanation).

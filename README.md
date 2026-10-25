@@ -19,15 +19,21 @@ This repository contains a personalized, responsive portfolio website showcasing
 
 ---
 
-## 2. The Five Coursework Projects
+## 2. Featured Projects
 
-| # | Project Name | Description | Technologies | Repository & Live Links |
+| # | Project Name | Description | Technologies | Links |
 |:---:|:---|:---|:---|:---|
-| **1** | **Python Programs Collection** | Core Python programs converting C algorithms into Python (Factorial calculation, Fibonacci series generator, and C-structure to Python-dictionary data mapping) with an audited fact-check README. | Python, C, Google Colab | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/python-basics-rollno) |
-| **2** | **Messy Python Code Improvement** | Practical case study refactoring an intentionally messy student grade and attendance calculator script with cryptic naming and duplicate logic into clean, modular, and tested Python using AI assistance. | Python, AI Tools, Refactoring, Unit Testing | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/messy-python-code-improvement) |
-| **3** | **Bug Fixing Using Cursor AI** | Case study identifying and correcting 3 runtime bugs (uninitialized variable, off-by-one buffer overflow, and integer division truncation) in an array average algorithm using 3-step chain prompting in Cursor AI. | C, Python, Cursor AI, Prompt Engineering | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/bug-fixing-using-cursor-ai) |
-| **4** | **Interactive Quiz Application** | Responsive quiz web application developed in Lecture 10 testing computer science and AI concepts with dynamic question rendering, instant visual feedback, and score tracking. | HTML, CSS, JavaScript, Web Development | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/interactive-quiz-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/interactive-quiz-application/) |
-| **5** | **Book Reading List Application** | Reading tracker application developed in Lecture 11 with book creation, reading lifecycle statuses (Want to Read, Currently Reading, Completed), live search, status filtering, and LocalStorage persistence. | HTML, CSS, JavaScript, LocalStorage | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/book-reading-list-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/book-reading-list-application/) |
+| **1** | **KRISHIDHENU** | Digital procurement platform for farmers with slot booking, OTP login, and a live queue. | Next.js, SSE | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/indian-farmer-Procurement) |
+| **2** | **ArriveAI** | SaaS prototype that sends AI-powered notifications when a delivery is about to arrive. | Next.js, AI | SaaS Prototype |
+| **3** | **PDFAI Hub** | PDF processing and AI features in one unified SaaS application. | Next.js 15, SaaS | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/PDFAIHUB) &bull; [Live Demo](https://pdfaihub.vercel.app) |
+| **4** | **Traffic Escape** | Mobile puzzle game where players navigate traffic and clear the road to free their car. | HTML5, Canvas | Mobile Game |
+
+### Additional Coursework Repositories
+- **Python Programs Collection**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/python-basics-rollno) (Factorial, Fibonacci, Structure-to-Dictionary)
+- **Messy Python Code Improvement**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/messy-python-code-improvement) (AI-assisted refactoring)
+- **Bug Fixing Using Cursor AI**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/bug-fixing-using-cursor-ai) (Array average debugging)
+- **Interactive Quiz Application**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/interactive-quiz-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/interactive-quiz-application/)
+- **Book Reading List Application**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/book-reading-list-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/book-reading-list-application/)
 
 ---
 
