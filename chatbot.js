@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return "Ayan's skills include HTML, CSS, JavaScript, Python, C, C++, Git, GitHub, Web Development, and AI Tools.";
     }
     if (q.includes("what projects") || q.includes("completed") || q.includes("list projects") || q.includes("all projects")) {
-      return "Ayan's portfolio highlights 4 featured projects: 1) KRISHIDHENU (Digital procurement platform for farmers), 2) ArriveAI (AI delivery notification SaaS), 3) PDFAI Hub (PDF processing & AI suite), and 4) Traffic Escape (Mobile canvas puzzle game).";
+      return "Ayan's portfolio showcases 9 projects: KRISHIDHENU, PDFAI Hub, Interactive Quiz Application, Book Reading List Application, Python Programs Collection, Messy Python Code Improvement, Bug Fixing Using Cursor AI, ArriveAI, and Traffic Escape.";
     }
     if (q.includes("krishidhenu") || q.includes("farmer") || q.includes("procurement")) {
       return "KRISHIDHENU is a digital procurement platform for farmers featuring slot booking, OTP authentication, and a real-time live queue built with Next.js and Server-Sent Events (SSE). Repository: https://github.com/ayankhanbebea-lgtm/indian-farmer-Procurement";

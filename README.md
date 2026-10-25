@@ -19,30 +19,28 @@ This repository contains a personalized, responsive portfolio website showcasing
 
 ---
 
-## 2. Featured Projects
+## 2. Projects Showcase
 
 | # | Project Name | Description | Technologies | Links |
 |:---:|:---|:---|:---|:---|
 | **1** | **KRISHIDHENU** | Digital procurement platform for farmers with slot booking, OTP login, and a live queue. | Next.js, SSE | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/indian-farmer-Procurement) |
-| **2** | **ArriveAI** | SaaS prototype that sends AI-powered notifications when a delivery is about to arrive. | Next.js, AI | SaaS Prototype |
-| **3** | **PDFAI Hub** | PDF processing and AI features in one unified SaaS application. | Next.js 15, SaaS | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/PDFAIHUB) &bull; [Live Demo](https://pdfaihub.vercel.app) |
-| **4** | **Traffic Escape** | Mobile puzzle game where players navigate traffic and clear the road to free their car. | HTML5, Canvas | Mobile Game |
-
-### Additional Coursework Repositories
-- **Python Programs Collection**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/python-basics-rollno) (Factorial, Fibonacci, Structure-to-Dictionary)
-- **Messy Python Code Improvement**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/messy-python-code-improvement) (AI-assisted refactoring)
-- **Bug Fixing Using Cursor AI**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/bug-fixing-using-cursor-ai) (Array average debugging)
-- **Interactive Quiz Application**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/interactive-quiz-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/interactive-quiz-application/)
-- **Book Reading List Application**: [GitHub Repo](https://github.com/ayankhanbebea-lgtm/book-reading-list-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/book-reading-list-application/)
+| **2** | **PDFAI Hub** | PDF processing and AI features in one unified SaaS application. | Next.js 15, SaaS, AI | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/PDFAIHUB) &bull; [Live Demo](https://pdfaihub.vercel.app) |
+| **3** | **Interactive Quiz Application** | Responsive quiz web app testing CS and AI concepts with dynamic questions and score tracking. | HTML5, CSS3, JavaScript | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/interactive-quiz-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/interactive-quiz-application/) |
+| **4** | **Book Reading List Application** | Reading tracker application with book entry creation, reading status toggles, and localStorage persistence. | HTML5, CSS3, JavaScript | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/book-reading-list-application) &bull; [Live Demo](https://ayankhanbebea-lgtm.github.io/book-reading-list-application/) |
+| **5** | **Python Programs Collection** | Core Python programs converting C algorithms into Python (Factorial, Fibonacci, Structure-to-Dictionary). | Python, C, Google Colab | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/python-basics-rollno) |
+| **6** | **Messy Python Code Improvement** | Practical case study refactoring an intentionally messy student script into modular, PEP 8 Python with unit tests. | Python, AI Tools, Unit Testing | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/messy-python-code-improvement) |
+| **7** | **Bug Fixing Using Cursor AI** | Case study fixing 3 runtime bugs in an array average algorithm using Cursor AI 3-step chain prompting. | C, Python, Cursor AI | [GitHub Repository](https://github.com/ayankhanbebea-lgtm/bug-fixing-using-cursor-ai) |
+| **8** | **ArriveAI** | SaaS prototype that sends AI-powered notifications when a delivery is about to arrive. | Next.js, AI | SaaS Prototype |
+| **9** | **Traffic Escape** | Mobile puzzle game where players navigate traffic and clear the road to free their car. | HTML5, Canvas | Mobile Game |
 
 ---
 
 ## 3. Implemented Features
 
 ### A. Dynamic Project Search & Filter (Task 3)
-- Visitors can search projects in real time by **project name** or **technology** (e.g., `Python`, `Quiz`, `Book`).
-- Category filter buttons (`All`, `Python`, `Web Development`, `AI Tools`) allow instant domain filtering.
-- A dynamic counter updates live based on the entered search term (*"Showing 5 of 5 projects"*).
+- Visitors can search projects in real time by **project name** or **technology** (e.g., `Python`, `Quiz`, `Book`, `KRISHIDHENU`, `Next.js`).
+- Category filter buttons (`All`, `Web Apps`, `Python`, `AI & Tools`, `Next.js`) allow instant domain filtering.
+- A dynamic counter updates live based on the entered search term (*"Showing 9 of 9 projects"*).
 
 ### B. Light & Dark Mode Toggle (Task 3)
 - Smooth toggle switch in the sticky header accessible on both desktop and mobile devices.
