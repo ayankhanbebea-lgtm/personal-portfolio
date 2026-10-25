@@ -9,7 +9,8 @@ An individual practical **Internal Assessment** project developed for the Comput
 - **Expected Graduation**: 2029
 - **Email**: [ayankhanbebea@gmail.com](mailto:ayankhanbebea@gmail.com)
 - **GitHub Profile**: [https://github.com/ayankhanbebea-lgtm](https://github.com/ayankhanbebea-lgtm)
-- **Live Deployed Portfolio**: [https://personal-portfolio-assessment.vercel.app](https://personal-portfolio-assessment.vercel.app) *(or active Vercel / GitHub Pages deployment)*
+- **Live Deployed Portfolio (Vercel)**: [https://personal-portfolio-iota-six-33.vercel.app](https://personal-portfolio-iota-six-33.vercel.app)
+- **Live Deployed Portfolio (GitHub Pages)**: [https://ayankhanbebea-lgtm.github.io/personal-portfolio/](https://ayankhanbebea-lgtm.github.io/personal-portfolio/)
 
 ---
 
